@@ -1,20 +1,20 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Header>
-      <h1>Biblioteca de Decks da gurizada</h1>
+    <header>
+      <h1>Registro de deck's da gurizada</h1>
       <hr />
       <div className="links">
         <NavLink to="/" className="link" activeClassName="active" exact>
-          Deck's Cadastrados
+          Decks Cadastrados
         </NavLink>
         <NavLink to="/add" className="link" activeClassName="active">
-          Cadastrar Deck
+          Adicionar Deck
         </NavLink>
       </div>
-    </Header>
+    </header>
   );
 };
 
